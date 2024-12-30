@@ -6,36 +6,93 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		841EA9F62D2308630046A529 /* CxjToasts in Frameworks */ = {isa = PBXBuildFile; productRef = 841EA9F52D2308630046A529 /* CxjToasts */; };
+		841EAA012D2308A40046A529 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EA9F72D2308A40046A529 /* AppDelegate.swift */; };
+		841EAA022D2308A40046A529 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EA9FE2D2308A40046A529 /* SceneDelegate.swift */; };
+		841EAA042D2308A40046A529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841EA9F82D2308A40046A529 /* Assets.xcassets */; };
+		841EAA062D2308A40046A529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841EA9FB2D2308A40046A529 /* LaunchScreen.storyboard */; };
+		841EAA0C2D2308B90046A529 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA092D2308B90046A529 /* UIApplication+Extensions.swift */; };
+		841EAA0D2D2308B90046A529 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA0A2D2308B90046A529 /* UIColor+Extensions.swift */; };
+		841EAA0E2D2308B90046A529 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA0B2D2308B90046A529 /* UIViewController+Extensions.swift */; };
+		841EAA5A2D23094D0046A529 /* BounceOnTouchUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA592D23094D0046A529 /* BounceOnTouchUIButton.swift */; };
+		841EAA5E2D2309600046A529 /* ToastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA5C2D2309600046A529 /* ToastCell.swift */; };
+		841EAA5F2D2309600046A529 /* ToastCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841EAA5D2D2309600046A529 /* ToastCell.xib */; };
+		841EAA632D23207A0046A529 /* ToastsListDiffableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA622D23207A0046A529 /* ToastsListDiffableDataSource.swift */; };
+		841EAA662D23208C0046A529 /* ToastFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA652D23208C0046A529 /* ToastFactory.swift */; };
+		841EAA702D23209C0046A529 /* TemplatedToastFactory+ActionableEventToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA692D23209C0046A529 /* TemplatedToastFactory+ActionableEventToast.swift */; };
+		841EAA712D23209C0046A529 /* TemplatedToastFactory+MinimalizedGlobalStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA6C2D23209C0046A529 /* TemplatedToastFactory+MinimalizedGlobalStatus.swift */; };
+		841EAA722D23209C0046A529 /* TemplatedToastFactory+TopStraight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA6E2D23209C0046A529 /* TemplatedToastFactory+TopStraight.swift */; };
+		841EAA732D23209C0046A529 /* TemplatedToastFactory+Native.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA6D2D23209C0046A529 /* TemplatedToastFactory+Native.swift */; };
+		841EAA742D23209C0046A529 /* TemplatedToastFactory+UndoAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA6F2D23209C0046A529 /* TemplatedToastFactory+UndoAction.swift */; };
+		841EAA752D23209C0046A529 /* TemplatedToastFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA682D23209C0046A529 /* TemplatedToastFactory.swift */; };
+		841EAA762D23209C0046A529 /* TemplatedToastFactory+CompactActionDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA6B2D23209C0046A529 /* TemplatedToastFactory+CompactActionDescription.swift */; };
+		841EAA772D23209C0046A529 /* TemplatedToastFactory+BottomPrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA6A2D23209C0046A529 /* TemplatedToastFactory+BottomPrimary.swift */; };
+		841EAA7C2D2320AD0046A529 /* CustomToastFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA792D2320AD0046A529 /* CustomToastFactory.swift */; };
+		841EAA7D2D2320AD0046A529 /* CustomToastFactory+BottomGradientWithBlurredBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA7A2D2320AD0046A529 /* CustomToastFactory+BottomGradientWithBlurredBackground.swift */; };
+		841EAA7E2D2320AD0046A529 /* CustomToastFactory+SidePresenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA7B2D2320AD0046A529 /* CustomToastFactory+SidePresenting.swift */; };
+		841EAA812D2320BB0046A529 /* ToastListFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA7F2D2320BB0046A529 /* ToastListFlowLayout.swift */; };
+		841EAA822D2320BB0046A529 /* ToastPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA802D2320BB0046A529 /* ToastPresenter.swift */; };
+		841EAA872D2320D80046A529 /* CustomToastType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA842D2320D80046A529 /* CustomToastType.swift */; };
+		841EAA882D2320D80046A529 /* TemplatedToastType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA852D2320D80046A529 /* TemplatedToastType.swift */; };
+		841EAA892D2320D80046A529 /* ToastType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA862D2320D80046A529 /* ToastType.swift */; };
+		841EAA8E2D2321450046A529 /* CustomToastsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA8D2D2321450046A529 /* CustomToastsViewController.swift */; };
+		841EAA8F2D2321450046A529 /* CustomToastsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841EAA8C2D2321450046A529 /* CustomToastsViewController.storyboard */; };
+		841EAA932D23215B0046A529 /* TemplatedToastsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA922D23215B0046A529 /* TemplatedToastsViewController.swift */; };
+		841EAA942D23215B0046A529 /* TemplatedToastsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841EAA912D23215B0046A529 /* TemplatedToastsViewController.storyboard */; };
+		841EAA982D2321750046A529 /* ToastPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA972D2321750046A529 /* ToastPreviewViewController.swift */; };
+		841EAA992D2321750046A529 /* ToastPreviewViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841EAA962D2321750046A529 /* ToastPreviewViewController.storyboard */; };
+		841EAA9C2D2321880046A529 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA9B2D2321880046A529 /* ViewController.swift */; };
+		841EAA9F2D2321980046A529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841EAA9D2D2321980046A529 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8414C9152D2303FA0039447F /* CxjToastsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CxjToastsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		841EA9F72D2308A40046A529 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		841EA9F82D2308A40046A529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		841EA9F92D2308A40046A529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841EA9FA2D2308A40046A529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		841EA9FE2D2308A40046A529 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		841EAA092D2308B90046A529 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+		841EAA0A2D2308B90046A529 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		841EAA0B2D2308B90046A529 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		841EAA592D23094D0046A529 /* BounceOnTouchUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceOnTouchUIButton.swift; sourceTree = "<group>"; };
+		841EAA5C2D2309600046A529 /* ToastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastCell.swift; sourceTree = "<group>"; };
+		841EAA5D2D2309600046A529 /* ToastCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToastCell.xib; sourceTree = "<group>"; };
+		841EAA622D23207A0046A529 /* ToastsListDiffableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastsListDiffableDataSource.swift; sourceTree = "<group>"; };
+		841EAA652D23208C0046A529 /* ToastFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastFactory.swift; sourceTree = "<group>"; };
+		841EAA682D23209C0046A529 /* TemplatedToastFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatedToastFactory.swift; sourceTree = "<group>"; };
+		841EAA692D23209C0046A529 /* TemplatedToastFactory+ActionableEventToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TemplatedToastFactory+ActionableEventToast.swift"; sourceTree = "<group>"; };
+		841EAA6A2D23209C0046A529 /* TemplatedToastFactory+BottomPrimary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TemplatedToastFactory+BottomPrimary.swift"; sourceTree = "<group>"; };
+		841EAA6B2D23209C0046A529 /* TemplatedToastFactory+CompactActionDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TemplatedToastFactory+CompactActionDescription.swift"; sourceTree = "<group>"; };
+		841EAA6C2D23209C0046A529 /* TemplatedToastFactory+MinimalizedGlobalStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TemplatedToastFactory+MinimalizedGlobalStatus.swift"; sourceTree = "<group>"; };
+		841EAA6D2D23209C0046A529 /* TemplatedToastFactory+Native.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TemplatedToastFactory+Native.swift"; sourceTree = "<group>"; };
+		841EAA6E2D23209C0046A529 /* TemplatedToastFactory+TopStraight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TemplatedToastFactory+TopStraight.swift"; sourceTree = "<group>"; };
+		841EAA6F2D23209C0046A529 /* TemplatedToastFactory+UndoAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TemplatedToastFactory+UndoAction.swift"; sourceTree = "<group>"; };
+		841EAA792D2320AD0046A529 /* CustomToastFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToastFactory.swift; sourceTree = "<group>"; };
+		841EAA7A2D2320AD0046A529 /* CustomToastFactory+BottomGradientWithBlurredBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomToastFactory+BottomGradientWithBlurredBackground.swift"; sourceTree = "<group>"; };
+		841EAA7B2D2320AD0046A529 /* CustomToastFactory+SidePresenting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomToastFactory+SidePresenting.swift"; sourceTree = "<group>"; };
+		841EAA7F2D2320BB0046A529 /* ToastListFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastListFlowLayout.swift; sourceTree = "<group>"; };
+		841EAA802D2320BB0046A529 /* ToastPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastPresenter.swift; sourceTree = "<group>"; };
+		841EAA842D2320D80046A529 /* CustomToastType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToastType.swift; sourceTree = "<group>"; };
+		841EAA852D2320D80046A529 /* TemplatedToastType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatedToastType.swift; sourceTree = "<group>"; };
+		841EAA862D2320D80046A529 /* ToastType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastType.swift; sourceTree = "<group>"; };
+		841EAA8C2D2321450046A529 /* CustomToastsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CustomToastsViewController.storyboard; sourceTree = "<group>"; };
+		841EAA8D2D2321450046A529 /* CustomToastsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToastsViewController.swift; sourceTree = "<group>"; };
+		841EAA912D23215B0046A529 /* TemplatedToastsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TemplatedToastsViewController.storyboard; sourceTree = "<group>"; };
+		841EAA922D23215B0046A529 /* TemplatedToastsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatedToastsViewController.swift; sourceTree = "<group>"; };
+		841EAA962D2321750046A529 /* ToastPreviewViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ToastPreviewViewController.storyboard; sourceTree = "<group>"; };
+		841EAA972D2321750046A529 /* ToastPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastPreviewViewController.swift; sourceTree = "<group>"; };
+		841EAA9B2D2321880046A529 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		841EAA9E2D2321980046A529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		8414C9272D2303FB0039447F /* Exceptions for "CxjToastsExample" folder in "CxjToastsExample" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 8414C9142D2303FA0039447F /* CxjToastsExample */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		8414C9172D2303FA0039447F /* CxjToastsExample */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				8414C9272D2303FB0039447F /* Exceptions for "CxjToastsExample" folder in "CxjToastsExample" target */,
-			);
-			path = CxjToastsExample;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8414C9122D2303FA0039447F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841EA9F62D2308630046A529 /* CxjToasts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +102,7 @@
 		8414C90C2D2303FA0039447F = {
 			isa = PBXGroup;
 			children = (
-				8414C9172D2303FA0039447F /* CxjToastsExample */,
+				841EAA002D2308A40046A529 /* CxjToastsExample */,
 				8414C9162D2303FA0039447F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +113,162 @@
 				8414C9152D2303FA0039447F /* CxjToastsExample.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		841EAA002D2308A40046A529 /* CxjToastsExample */ = {
+			isa = PBXGroup;
+			children = (
+				841EAA082D2308A90046A529 /* Extensions */,
+				841EAA832D2320D00046A529 /* Models */,
+				841EAA602D2320650046A529 /* Services */,
+				841EAA582D2309460046A529 /* Views */,
+				841EAA8A2D23211A0046A529 /* Screens */,
+				841EA9F72D2308A40046A529 /* AppDelegate.swift */,
+				841EA9F82D2308A40046A529 /* Assets.xcassets */,
+				841EA9F92D2308A40046A529 /* Info.plist */,
+				841EA9FB2D2308A40046A529 /* LaunchScreen.storyboard */,
+				841EA9FE2D2308A40046A529 /* SceneDelegate.swift */,
+			);
+			path = CxjToastsExample;
+			sourceTree = "<group>";
+		};
+		841EAA082D2308A90046A529 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				841EAA092D2308B90046A529 /* UIApplication+Extensions.swift */,
+				841EAA0A2D2308B90046A529 /* UIColor+Extensions.swift */,
+				841EAA0B2D2308B90046A529 /* UIViewController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		841EAA582D2309460046A529 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				841EAA5B2D2309530046A529 /* ToastCell */,
+				841EAA592D23094D0046A529 /* BounceOnTouchUIButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		841EAA5B2D2309530046A529 /* ToastCell */ = {
+			isa = PBXGroup;
+			children = (
+				841EAA5C2D2309600046A529 /* ToastCell.swift */,
+				841EAA5D2D2309600046A529 /* ToastCell.xib */,
+			);
+			path = ToastCell;
+			sourceTree = "<group>";
+		};
+		841EAA602D2320650046A529 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				841EAA642D2320810046A529 /* ToastFactory */,
+				841EAA612D23206F0046A529 /* ToastDataSource */,
+				841EAA7F2D2320BB0046A529 /* ToastListFlowLayout.swift */,
+				841EAA802D2320BB0046A529 /* ToastPresenter.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		841EAA612D23206F0046A529 /* ToastDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				841EAA622D23207A0046A529 /* ToastsListDiffableDataSource.swift */,
+			);
+			path = ToastDataSource;
+			sourceTree = "<group>";
+		};
+		841EAA642D2320810046A529 /* ToastFactory */ = {
+			isa = PBXGroup;
+			children = (
+				841EAA782D2320A50046A529 /* Custom */,
+				841EAA672D2320940046A529 /* Templated */,
+				841EAA652D23208C0046A529 /* ToastFactory.swift */,
+			);
+			path = ToastFactory;
+			sourceTree = "<group>";
+		};
+		841EAA672D2320940046A529 /* Templated */ = {
+			isa = PBXGroup;
+			children = (
+				841EAA682D23209C0046A529 /* TemplatedToastFactory.swift */,
+				841EAA692D23209C0046A529 /* TemplatedToastFactory+ActionableEventToast.swift */,
+				841EAA6A2D23209C0046A529 /* TemplatedToastFactory+BottomPrimary.swift */,
+				841EAA6B2D23209C0046A529 /* TemplatedToastFactory+CompactActionDescription.swift */,
+				841EAA6C2D23209C0046A529 /* TemplatedToastFactory+MinimalizedGlobalStatus.swift */,
+				841EAA6D2D23209C0046A529 /* TemplatedToastFactory+Native.swift */,
+				841EAA6E2D23209C0046A529 /* TemplatedToastFactory+TopStraight.swift */,
+				841EAA6F2D23209C0046A529 /* TemplatedToastFactory+UndoAction.swift */,
+			);
+			path = Templated;
+			sourceTree = "<group>";
+		};
+		841EAA782D2320A50046A529 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				841EAA792D2320AD0046A529 /* CustomToastFactory.swift */,
+				841EAA7A2D2320AD0046A529 /* CustomToastFactory+BottomGradientWithBlurredBackground.swift */,
+				841EAA7B2D2320AD0046A529 /* CustomToastFactory+SidePresenting.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		841EAA832D2320D00046A529 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				841EAA842D2320D80046A529 /* CustomToastType.swift */,
+				841EAA852D2320D80046A529 /* TemplatedToastType.swift */,
+				841EAA862D2320D80046A529 /* ToastType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		841EAA8A2D23211A0046A529 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				841EAA9A2D2321820046A529 /* Main */,
+				841EAA902D2321490046A529 /* TemplatedToasts */,
+				841EAA8B2D2321390046A529 /* CustomToasts */,
+				841EAA952D2321680046A529 /* ToastPreview */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		841EAA8B2D2321390046A529 /* CustomToasts */ = {
+			isa = PBXGroup;
+			children = (
+				841EAA8C2D2321450046A529 /* CustomToastsViewController.storyboard */,
+				841EAA8D2D2321450046A529 /* CustomToastsViewController.swift */,
+			);
+			path = CustomToasts;
+			sourceTree = "<group>";
+		};
+		841EAA902D2321490046A529 /* TemplatedToasts */ = {
+			isa = PBXGroup;
+			children = (
+				841EAA912D23215B0046A529 /* TemplatedToastsViewController.storyboard */,
+				841EAA922D23215B0046A529 /* TemplatedToastsViewController.swift */,
+			);
+			path = TemplatedToasts;
+			sourceTree = "<group>";
+		};
+		841EAA952D2321680046A529 /* ToastPreview */ = {
+			isa = PBXGroup;
+			children = (
+				841EAA962D2321750046A529 /* ToastPreviewViewController.storyboard */,
+				841EAA972D2321750046A529 /* ToastPreviewViewController.swift */,
+			);
+			path = ToastPreview;
+			sourceTree = "<group>";
+		};
+		841EAA9A2D2321820046A529 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				841EAA9D2D2321980046A529 /* Main.storyboard */,
+				841EAA9B2D2321880046A529 /* ViewController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,11 +286,9 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				8414C9172D2303FA0039447F /* CxjToastsExample */,
-			);
 			name = CxjToastsExample;
 			packageProductDependencies = (
+				841EA9F52D2308630046A529 /* CxjToasts */,
 			);
 			productName = CxjToastsExample;
 			productReference = 8414C9152D2303FA0039447F /* CxjToastsExample.app */;
@@ -107,6 +318,9 @@
 			);
 			mainGroup = 8414C90C2D2303FA0039447F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				841EA9F42D2308620046A529 /* XCRemoteSwiftPackageReference "CxjToasts" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8414C9162D2303FA0039447F /* Products */;
 			projectDirPath = "";
@@ -122,6 +336,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841EAA042D2308A40046A529 /* Assets.xcassets in Resources */,
+				841EAA8F2D2321450046A529 /* CustomToastsViewController.storyboard in Resources */,
+				841EAA5F2D2309600046A529 /* ToastCell.xib in Resources */,
+				841EAA9F2D2321980046A529 /* Main.storyboard in Resources */,
+				841EAA062D2308A40046A529 /* LaunchScreen.storyboard in Resources */,
+				841EAA942D23215B0046A529 /* TemplatedToastsViewController.storyboard in Resources */,
+				841EAA992D2321750046A529 /* ToastPreviewViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +353,58 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841EAA9C2D2321880046A529 /* ViewController.swift in Sources */,
+				841EAA012D2308A40046A529 /* AppDelegate.swift in Sources */,
+				841EAA0C2D2308B90046A529 /* UIApplication+Extensions.swift in Sources */,
+				841EAA5A2D23094D0046A529 /* BounceOnTouchUIButton.swift in Sources */,
+				841EAA8E2D2321450046A529 /* CustomToastsViewController.swift in Sources */,
+				841EAA632D23207A0046A529 /* ToastsListDiffableDataSource.swift in Sources */,
+				841EAA662D23208C0046A529 /* ToastFactory.swift in Sources */,
+				841EAA702D23209C0046A529 /* TemplatedToastFactory+ActionableEventToast.swift in Sources */,
+				841EAA712D23209C0046A529 /* TemplatedToastFactory+MinimalizedGlobalStatus.swift in Sources */,
+				841EAA722D23209C0046A529 /* TemplatedToastFactory+TopStraight.swift in Sources */,
+				841EAA732D23209C0046A529 /* TemplatedToastFactory+Native.swift in Sources */,
+				841EAA812D2320BB0046A529 /* ToastListFlowLayout.swift in Sources */,
+				841EAA822D2320BB0046A529 /* ToastPresenter.swift in Sources */,
+				841EAA742D23209C0046A529 /* TemplatedToastFactory+UndoAction.swift in Sources */,
+				841EAA982D2321750046A529 /* ToastPreviewViewController.swift in Sources */,
+				841EAA752D23209C0046A529 /* TemplatedToastFactory.swift in Sources */,
+				841EAA7C2D2320AD0046A529 /* CustomToastFactory.swift in Sources */,
+				841EAA7D2D2320AD0046A529 /* CustomToastFactory+BottomGradientWithBlurredBackground.swift in Sources */,
+				841EAA7E2D2320AD0046A529 /* CustomToastFactory+SidePresenting.swift in Sources */,
+				841EAA762D23209C0046A529 /* TemplatedToastFactory+CompactActionDescription.swift in Sources */,
+				841EAA772D23209C0046A529 /* TemplatedToastFactory+BottomPrimary.swift in Sources */,
+				841EAA932D23215B0046A529 /* TemplatedToastsViewController.swift in Sources */,
+				841EAA0D2D2308B90046A529 /* UIColor+Extensions.swift in Sources */,
+				841EAA0E2D2308B90046A529 /* UIViewController+Extensions.swift in Sources */,
+				841EAA5E2D2309600046A529 /* ToastCell.swift in Sources */,
+				841EAA022D2308A40046A529 /* SceneDelegate.swift in Sources */,
+				841EAA872D2320D80046A529 /* CustomToastType.swift in Sources */,
+				841EAA882D2320D80046A529 /* TemplatedToastType.swift in Sources */,
+				841EAA892D2320D80046A529 /* ToastType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		841EA9FB2D2308A40046A529 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841EA9FA2D2308A40046A529 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		841EAA9D2D2321980046A529 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841EAA9E2D2321980046A529 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8414C9292D2303FB0039447F /* Debug */ = {
@@ -335,6 +604,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		841EA9F42D2308620046A529 /* XCRemoteSwiftPackageReference "CxjToasts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/coxijcake/CxjToasts";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		841EA9F52D2308630046A529 /* CxjToasts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 841EA9F42D2308620046A529 /* XCRemoteSwiftPackageReference "CxjToasts" */;
+			productName = CxjToasts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8414C90D2D2303FA0039447F /* Project object */;
 }

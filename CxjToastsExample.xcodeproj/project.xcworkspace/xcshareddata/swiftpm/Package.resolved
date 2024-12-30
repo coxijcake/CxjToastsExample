@@ -1,0 +1,15 @@
+{
+  "originHash" : "01d0dbf6f447bb0b75a3b3e6b49ddf7db166130ec7129389ce3eb5a61a6d79d3",
+  "pins" : [
+    {
+      "identity" : "cxjtoasts",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/coxijcake/CxjToasts",
+      "state" : {
+        "branch" : "main",
+        "revision" : "48f2a8f29ff6d89ddd5a68dc37d911f4a1cd784d"
+      }
+    }
+  ],
+  "version" : 3
+}
