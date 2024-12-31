@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/coxijcake/CxjToasts",
       "state" : {
-        "branch" : "main",
-        "revision" : "48f2a8f29ff6d89ddd5a68dc37d911f4a1cd784d"
+        "revision" : "f85f98707fec89982f39b601834e0b1d14fe2ae2",
+        "version" : "1.0.7"
       }
     }
   ],

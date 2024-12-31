@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		841EA9F62D2308630046A529 /* CxjToasts in Frameworks */ = {isa = PBXBuildFile; productRef = 841EA9F52D2308630046A529 /* CxjToasts */; };
 		841EAA012D2308A40046A529 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EA9F72D2308A40046A529 /* AppDelegate.swift */; };
 		841EAA022D2308A40046A529 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EA9FE2D2308A40046A529 /* SceneDelegate.swift */; };
 		841EAA042D2308A40046A529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841EA9F82D2308A40046A529 /* Assets.xcassets */; };
@@ -44,6 +43,7 @@
 		841EAA992D2321750046A529 /* ToastPreviewViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841EAA962D2321750046A529 /* ToastPreviewViewController.storyboard */; };
 		841EAA9C2D2321880046A529 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EAA9B2D2321880046A529 /* ViewController.swift */; };
 		841EAA9F2D2321980046A529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841EAA9D2D2321980046A529 /* Main.storyboard */; };
+		845671B72D2407CC007D564F /* CxjToasts in Frameworks */ = {isa = PBXBuildFile; productRef = 845671B62D2407CC007D564F /* CxjToasts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +85,7 @@
 		841EAA972D2321750046A529 /* ToastPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastPreviewViewController.swift; sourceTree = "<group>"; };
 		841EAA9B2D2321880046A529 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		841EAA9E2D2321980046A529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		845671AE2D240632007D564F /* CxjToasts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CxjToasts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				841EA9F62D2308630046A529 /* CxjToasts in Frameworks */,
+				845671B72D2407CC007D564F /* CxjToasts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +105,7 @@
 			children = (
 				841EAA002D2308A40046A529 /* CxjToastsExample */,
 				8414C9162D2303FA0039447F /* Products */,
+				E22B90F83059D9D6EC8FBC59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -271,6 +273,14 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		E22B90F83059D9D6EC8FBC59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				845671AE2D240632007D564F /* CxjToasts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -287,9 +297,6 @@
 			dependencies = (
 			);
 			name = CxjToastsExample;
-			packageProductDependencies = (
-				841EA9F52D2308630046A529 /* CxjToasts */,
-			);
 			productName = CxjToastsExample;
 			productReference = 8414C9152D2303FA0039447F /* CxjToastsExample.app */;
 			productType = "com.apple.product-type.application";
@@ -310,6 +317,7 @@
 				};
 			};
 			buildConfigurationList = 8414C9102D2303FA0039447F /* Build configuration list for PBXProject "CxjToastsExample" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -317,11 +325,9 @@
 				Base,
 			);
 			mainGroup = 8414C90C2D2303FA0039447F;
-			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				841EA9F42D2308620046A529 /* XCRemoteSwiftPackageReference "CxjToasts" */,
+				845671B52D2407CC007D564F /* XCRemoteSwiftPackageReference "CxjToasts" */,
 			);
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 8414C9162D2303FA0039447F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -500,7 +506,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -563,7 +569,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -606,20 +612,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		841EA9F42D2308620046A529 /* XCRemoteSwiftPackageReference "CxjToasts" */ = {
+		845671B52D2407CC007D564F /* XCRemoteSwiftPackageReference "CxjToasts" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/coxijcake/CxjToasts";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.7;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		841EA9F52D2308630046A529 /* CxjToasts */ = {
+		845671B62D2407CC007D564F /* CxjToasts */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 841EA9F42D2308620046A529 /* XCRemoteSwiftPackageReference "CxjToasts" */;
+			package = 845671B52D2407CC007D564F /* XCRemoteSwiftPackageReference "CxjToasts" */;
 			productName = CxjToasts;
 		};
 /* End XCSwiftPackageProductDependency section */
